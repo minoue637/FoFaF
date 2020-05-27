@@ -1,0 +1,12 @@
+Package: FoFaF
+Type: Package
+Title: Joint Estimation of Non-parametric Transitivity and Preferential Attachment Functions
+Version: 0.1.0
+Author: Masaaki Inoue, Thong Pham, Hidetoshi Shimodaira
+Maintainer: Masaaki Inoue <minoue@sys.i.kyoto-u.ac.jp>
+Description: statistical method to estimate simultaneously the non-parametric transitivity and preferential attachment functions in a growing network.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: Rcpp, Matrix, igraph
+LinkingTo: Rcpp, RcppArmadillo

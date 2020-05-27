@@ -1,0 +1,9 @@
+useDynLib(FoFaF, .registration=TRUE)
+exportPattern("^[[:alpha:]]+")
+importFrom(Rcpp, evalCpp)
+
+importClassesFrom("Matrix", "dgCMatrix")
+importMethodsFrom("Matrix","tcrossprod","colSums")
+
+importFrom("igraph", "graph_from_edgelist", "fit_power_law",
+           "degree", "transitivity", "max_cliques", "as_edgelist","simplify", "is.simple")
